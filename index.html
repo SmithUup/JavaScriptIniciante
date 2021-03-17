@@ -5,17 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=no">
     <script type="text/javascript" src="script.js"></script>
-    <title>Página Teste JS</title>
+    <title>Curso JS</title>
 </head>
 <body bgcolor="black" text="white">
    <center>
-       
+
+    <!-- Nível 1 -->
    <h2>Curso javascript!<h2>
 
    <button onclick="window.location.href='http://www.google.com.br';"> Ir para o Google </button>
-
-   <!-- Usamos o próprio comando para atualizar a página, sem aspas! -->
    <button onclick="window.location.href=window.location.href;"> Atualizar a página. </button>
+   <br><br>
+   <!-- Fim nível 1 -->
+
+
+   <!-- Nível 2 -->
+   <div id="area"> !Seu nome aqui! </div>
+   <button onclick="document.getElementById('area').innerHTML=prompt('Qual seu nome?');">Clique aqui!</button>
+   <br>
+   <button onclick="this.innerHTML=prompt('Qual deveria ser o nome desse botão?')">?????</button>
+   <!-- Fim nível 2 -->
 
 </body>
 </html>
