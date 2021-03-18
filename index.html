@@ -14,17 +14,51 @@
    <h2>Curso javascript!<h2>
 
    <button onclick="window.location.href='http://www.google.com.br';"> Ir para o Google </button>
-   <button onclick="window.location.href=window.location.href;"> Atualizar a página. </button>
+   <button onclick="window.location.href=window.location.href;"> Reset página. </button>
    <br><br>
    <!-- Fim nível 1 -->
 
 
    <!-- Nível 2 -->
-   <div id="area"> !Seu nome aqui! </div>
+   <div id="area"> <i>!Seu nome aqui!</i> </div>
    <button onclick="document.getElementById('area').innerHTML=prompt('Qual seu nome?');">Clique aqui!</button>
    <br>
-   <button onclick="this.innerHTML=prompt('Qual deveria ser o nome desse botão?')">?????</button>
+   <button onclick="this.innerHTML=prompt('Qual deveria ser o nome desse botão?')"><i>?????</i></button>
    <!-- Fim nível 2 -->
+
+
+   <!-- Nível 3 -->
+   <br><br>
+   Mesma ação, porém usando uma função.<br>
+   <button onclick="acao()">Clique aqui!</button>
+
+   <br><br>
+    Ação dois
+    Com parâmetro
+   <div id="SobreNome"><i>Seu nome e SobreNome aqui.</i></div>
+   <button onclick="sobrenome('Smith')">Clique aqui!</button>
+   <br><br>
+
+    <h3>Igrediantes</h3>
+
+    <input type="text" id="igrediante" />
+    <button onclick="addingrediente()">ADD</button>
+
+   <ul id="lista">
+       <li>Item 1</li>
+       <li>Item 2</li>
+       <li>Item 3</li>
+   </ul>
+
+   <br><br>
+   <input type="number" name="n1" id="n1" />
+   <input type="number" name="n2" id="n2"  />
+   <br>
+   <button onclick="somar()">Somar</button>
+   <button onclick="multi()">Multiplicar</button>
+   <button onclick="div()">Dividir</button>
+   
+   <!-- Fim nível 3 -->
 
 </body>
 </html>
