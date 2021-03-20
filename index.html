@@ -11,6 +11,7 @@
    <center>
 
     <!-- Nível 1 -->
+    <!-- link e redirecionamento, JS INTERNO -->
    <h2>Curso javascript!<h2>
 
    <button onclick="window.location.href='http://www.google.com.br';"> Ir para o Google </button>
@@ -20,6 +21,7 @@
 
 
    <!-- Nível 2 -->
+   <!-- Alterando elemento HTML com JS, JS INTERNO -->
    <div id="area"> <i>!Seu nome aqui!</i> </div>
    <button onclick="document.getElementById('area').innerHTML=prompt('Qual seu nome?');">Clique aqui!</button>
    <br>
@@ -28,6 +30,7 @@
 
 
    <!-- Nível 3 -->
+   <!-- Criando funções e operações matemáticas, JS Externo... -->
    <br><br>
    Mesma ação, porém usando uma função.<br>
    <button onclick="acao()">Clique aqui!</button>
@@ -59,6 +62,35 @@
    <button onclick="div()">Dividir</button>
    
    <!-- Fim nível 3 -->
+
+
+
+   <!-- Nível 4 -->
+   <!-- Array -->
+   <br><br>
+   <button onclick="VerLista()">Ver lista</button>
+   <div id="ListaInfor"></div>
+
+
+   <br><br>
+   <input type="text" name="posicaotxt" id="posicaotxt" />
+   <button onclick="posicao()">Posição no Array</button>
+
+
+   <br>
+   <button onclick="quantidade()">Total de elementos no Array.</button>
+
+   <br>
+   <button onclick="removeListaUltimo()">Remove o último item da array.</button>
+
+   <br>
+   <button onclick="removeListaPrimeiro()">Remove o primeiro item da array.</button>
+
+   <br><br>
+   <input type="text" name="ArrayTxt" id="ArrayTxt" />
+   <button onclick="Addarray()">Adicione um item ao array.</button>
+
+   <!-- Fim nível 4 -->
 
 </body>
 </html>
