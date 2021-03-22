@@ -126,3 +126,65 @@ function Addarray()
     ListaInfor.innerHTML = lista;
 }
 
+//LOOP WHILE
+
+function W()
+{
+var x = 0;
+
+document.write("Iniciando um Loop WHILE...<br>");
+
+while (x < 10)
+{
+    document.write("Número: "+x+"<br>");
+    x++;
+}
+document.write("Finalizando o loop");
+}
+//FIM DO LOOP WHILE
+
+
+
+//LOOP FOR
+function F()
+{
+document.write("<br><br>");
+document.write("Iniciando um Loop FOR...<br>");
+for(x = 0; x < 10; x++)
+{
+    document.write("Número: "+x+"<br>");
+
+}
+document.write("Finalizando o loop");
+}
+
+//FIM LOOP FOR
+
+
+function UmLindoSwitch()
+{
+
+    x =prompt("Qual é o número?");
+
+    switch(x)
+    {
+        case "0":
+            alert("Agora X é 0");
+            break;
+        
+        case "1":
+             alert("Agora X é 1");
+             break;
+
+        case "2":
+            alert("Agora X é 2");
+            break;
+
+        default:
+            alert("X não pode ser "+x);
+            break;
+        
+    }
+
+
+}
