@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
+    <script type="text/javascript" src="javas.js"></script>
+    <title>Eventos Mouse</title>
+</head>
+<body bgcolor="black" text="white">
+<center>
+
+    <!-- Nível 1 -->
+    <!-- Eventos sobre o mouse -->
+   <button onmousedown="cliquedown()" onmouseup="cliquesolto()" onmouseover="passouMouse()" onmouseout="saiu()" onmousemove="movendo()">EVENTO AQUI</button>
+   <br>
+
+   <!-- o retunr é sobre a ação do botão diretio do Mouse, para não aparecer o menu. -->
+   <button onclick="clique()" oncontextmenu="return btdireito()" ondblclick="dbclick()">Clique com direito e esquerdo</button>
+   <div id="retornoClique">Retorno do Evento</div>
+    <!-- Fim nível 1 -->
+    
+</center>
+</body>
+</html>
