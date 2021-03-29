@@ -44,3 +44,20 @@ function dbclick()
 {
     document.getElementById("retornoClique").innerHTML = "Clicou 2 vezes";
 }
+
+function digitou(event)
+{
+    //keyCode exibe o número correspondente a tecla.
+    document.getElementById("retornodgt").innerHTML = "Digitando..."+event.keyCode;
+
+    //podemos usar o altkey, ctrlkey
+    if(event.shiftKey == true && event.keyCode == 69 )
+    {
+    document.getElementById("retornoshifr").innerHTML = "Shift + E";
+    }
+}
+
+function carregou()
+{
+    alert("Página Carregada!");
+}

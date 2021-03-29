@@ -6,7 +6,8 @@
     <script type="text/javascript" src="javas.js"></script>
     <title>Eventos Mouse</title>
 </head>
-<body bgcolor="black" text="white">
+
+<body bgcolor="black" text="white"  onload="carregou();">
 <center>
 
     <!-- Nível 1 -->
@@ -19,6 +20,17 @@
    <div id="retornoClique">Retorno do Evento</div>
     <!-- Fim nível 1 -->
     
+
+    <!-- Nível 2 -->
+    <br><br><br>
+    
+    <!-- ou "onkeyup", quando o user solta a tecla, ou "onkeypress" quando segurar a tecla.-->
+    <input type="text" onkeydown="digitou(event)" />
+    <div id="retornodgt">Retorno da digitação</div>
+    <div id="retornoshifr"></div>
+
+    <br><br><br>
+    <!-- Fim nível 2 -->
 </center>
 </body>
 </html>
