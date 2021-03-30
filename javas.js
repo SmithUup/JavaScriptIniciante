@@ -61,3 +61,23 @@ function carregou()
 {
     alert("Página Carregada!");
 }
+
+function mudouOpcao(cidade)
+{
+    document.getElementById("retornoselect").innerHTML = "Mudou para: "+cidade.value; 
+}
+
+function focou()
+{
+    document.getElementById("retornoselect").innerHTML = "Pode Digitar! ";  
+}
+
+function desfocou()
+{
+    document.getElementById("retornoselect").innerHTML = "Não se vá, digite mais! ";  
+}
+
+function enviou()
+{
+    alert("Enviou, mas ninguém recebeu! rsr");
+}
